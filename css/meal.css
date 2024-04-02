@@ -76,7 +76,7 @@ footer div {
     margin-top: 100px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 768px) {
 
     #navigation h2 {
         font-size: 15px;
