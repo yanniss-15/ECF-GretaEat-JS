@@ -70,6 +70,7 @@ section h1 {
     border: 5px solid;
     border-color: rgba(85, 171, 20, 0.957);
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .resultContent h3 {

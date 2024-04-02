@@ -55,9 +55,6 @@ section a {
     text-decoration: underline;
 }
 
-section a:hover {
-    color: rgba(85, 171, 20, 0.957)
-}
 
 footer {
     display: flex;
@@ -100,10 +97,6 @@ footer div {
         margin-left: auto;
         margin-right: auto;
         padding: 5px;
-    }
-
-    section a:hover {
-        color: white;
     }
 
     .main {

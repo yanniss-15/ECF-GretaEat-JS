@@ -64,6 +64,8 @@ section h2 {
 
 .recipe img {
     width: 300px;
+    border-radius: 30px;
+    padding: 20px;
 }
 
 footer {
