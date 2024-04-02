@@ -100,3 +100,25 @@ footer {
 footer div {
     margin-top: 100px;
 }
+
+/*RESPONSIVE PALIER 500PX*/
+
+@media (max-width: 500px) {
+
+    #navigation h2 {
+        font-size: 15px;
+    }
+
+    #logoGretaEat img {
+        width: 200px;
+    }
+
+    body h1 {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .area a {
+        font-size: 20px;
+    }
+}

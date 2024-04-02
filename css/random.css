@@ -40,6 +40,8 @@ nav a {
     color: black;
 }
 
+/*NAV*/
+
 #recipeDetails {
     background-color: lightgray;
     display: flex;
@@ -72,6 +74,8 @@ section h2 {
     width: 300px;
 }
 
+/*SECTION*/
+
 footer {
     display: flex;
     justify-content: center;
@@ -81,6 +85,10 @@ footer {
 footer div {
     margin-top: 100px;
 }
+
+/*FOOTER*/
+
+/*RESPONSIVE PALIER 500PX*/
 
 @media (max-width: 500px) {
 
@@ -102,5 +110,9 @@ footer div {
         font-size: 20px;
         border-radius: 20px;
         gap: 5px;
+    }
+
+    #container {
+        padding: 30px;
     }
 }
