@@ -122,3 +122,13 @@ footer div {
         width: 300px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    #navigation h2 {
+        font-size: 20px;
+    }
+
+    #logoGretaEat img {
+        width: 300px;
+    }
+}
