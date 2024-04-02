@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/***********
+HEADER
+***********/
+
+#logoGretaEat {
+    display: flex;
+    justify-content: center;
+    background-image: url(/assets/istockphoto-1438547354-2048x2048.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#logoGretaEat img {
+    width: 400px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+#navigation h2 {
+    font-size: 30px;
+}
+
+#navigation :nth-child(4) {
+    color: rgba(85, 171, 20, 0.957)
+}
+
+#navigation h2:hover {
+    color: rgba(85, 171, 20, 0.957);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 10px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.alphabet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.liste h3 {
+    text-align: center;
+}
+
+.liste a {
+    text-decoration: none;
+    color: black;
+    border: 5px solid;
+    border-color: rgba(85, 171, 20, 0.957);
+    border-radius: 20px;
+}
+
+.liste a :hover {
+    color:rgba(85, 171, 20, 0.957)
+}
+
+.liste img {
+    width: 500px;
+}
+
+.alphabet {
+    cursor: pointer;
+}
+
+.alphabet :hover {
+    color: rgba(85, 171, 20, 0.957)
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+footer div {
+    margin-top: 100px;
+}
