@@ -98,7 +98,7 @@ footer div {
 
 /*RESPONSIVE PALIER 500PX*/
 
-@media (max-width: 500px) {
+@media (min-width: 500px) and (max-width: 768px) {
 
     #navigation h2 {
         font-size: 15px;
