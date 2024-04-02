@@ -72,6 +72,8 @@ section h2 {
 
 #container img {
     width: 300px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 /*SECTION*/
