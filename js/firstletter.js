@@ -5,6 +5,7 @@ function getFirstLetter() {
     letters.forEach(letter => {
         letter.addEventListener('click', selectedLetter)
     })
+    // Pour chaques lettres cliquées, on lance la fonction selectedLetter(e).
     
 }
 
@@ -26,6 +27,7 @@ async function selectedLetter (e) {
                 <img src=${meals.strMealThumb}>
             </li>`
     })
-}
+} // Fonction selectedLetter(e) qui fait une requête personnalisée à l'API TheMealDB en passant en paramètre d'URL la variable letter.
+    // Elle va ensuite générer les recettes commençent par la lettre cliquée.
 
 getFirstLetter();

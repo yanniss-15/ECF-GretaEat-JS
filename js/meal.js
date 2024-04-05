@@ -41,5 +41,6 @@ async function getRecipeById() {
 }
 
 getRecipeById()
+// Fonction qui va générer la page d'une recette en passant en paramètre d'URL l'id correspondant à la recette.
 
 
